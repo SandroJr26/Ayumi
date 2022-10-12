@@ -1,0 +1,19 @@
+.header-bg {
+  background: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
