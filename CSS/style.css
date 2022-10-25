@@ -2,6 +2,9 @@
 @import "./global/header.css";
 @import "./global/global.css";
 
+/* Portal */
+@import "./portal/portal.css";
+
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";

@@ -1,0 +1,22 @@
+.portal {
+  max-width: 100%;
+  position: absolute;
+}
+
+.portal img {
+  width: auto;
+  height: auto;
+}
+
+.portal div {
+  max-width: 800px;
+  height: 120px;
+  background-color: rgba(20, 20, 20, 0.8);
+  position: relative;
+  padding: 20px 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: -160px;
+  border-radius: 40px 40px 0 0;
+}
