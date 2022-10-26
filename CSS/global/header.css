@@ -1,5 +1,5 @@
 .header-bg {
-  background: black;
+  background: var(--cor-16);
 }
 
 .header {
@@ -16,4 +16,27 @@
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0;
+  position: relative;
+}
+
+.header-menu a::before {
+  content: "";
+  display: block;
+  margin-left: -8px;
+  margin-top: 2px;
+  width: 0px;
+  height: 16px;
+  position: absolute;
+  background: linear-gradient(#e94545, #a10a0e);
+  border-radius: 2px 0px 0px 2px;
+  transition: 0.3;
+}
+
+.header-menu a:hover:before {
+  width: 4px;
 }
