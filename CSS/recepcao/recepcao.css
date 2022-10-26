@@ -1,0 +1,22 @@
+.recepcao-bg {
+  background-color: var(--cor-14);
+}
+
+.recepcao h1 {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.recepcao p {
+  margin-bottom: 32px;
+}
+
+.pecas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.pecas img {
+  padding-top: 28px;
+}
