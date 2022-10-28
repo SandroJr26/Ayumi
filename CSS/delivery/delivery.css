@@ -1,0 +1,30 @@
+.delivery-bg {
+  background-color: var(--cor-14);
+}
+
+.delivery h2 {
+  padding-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.delivery p {
+  margin-bottom: 32px;
+}
+
+.delivery a {
+  text-transform: uppercase;
+}
+
+.delivery a:hover {
+  color: var(--cor-2);
+}
+
+.delivery-bg picture::after {
+  display: none;
+}
+
+.delivery-bg .pecas img {
+  margin-top: 20px;
+}

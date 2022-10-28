@@ -5,6 +5,7 @@
 .recepcao h2 {
   padding-top: 80px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .recepcao p {
@@ -13,6 +14,7 @@
 
 .pecas {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   align-items: center;
   justify-content: center;
@@ -54,13 +56,7 @@ picture::after {
   }
 }
 
-@media (max-width: 1000px) {
-  .pecas {
-    gap: 32px;
-  }
-  .pecas img {
-    margin: 0;
-  }
+@media (max-width: 1050px) {
   .recepcao h2 {
     padding-top: 60px;
     font-size: 2rem;

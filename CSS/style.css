@@ -12,3 +12,6 @@
 
 /* Recepcao */
 @import "./recepcao/recepcao.css";
+
+/* Delivery */
+@import "./delivery/delivery.css";
