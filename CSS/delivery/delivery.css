@@ -2,6 +2,14 @@
   background-color: var(--cor-14);
 }
 
+.delivery {
+  padding-bottom: 80px;
+}
+
+.delivery .pecas img {
+  margin: 20px 0 40px;
+}
+
 .delivery h2 {
   padding-top: 80px;
   margin-bottom: 40px;
@@ -13,18 +21,56 @@
   margin-bottom: 32px;
 }
 
-.delivery a {
-  text-transform: uppercase;
-}
-
-.delivery a:hover {
+.delivery .ver-mais:hover {
   color: var(--cor-2);
 }
 
-.delivery-bg picture::after {
+.delivery-bg div::after {
   display: none;
 }
 
-.delivery-bg .pecas img {
-  margin-top: 20px;
+.delivery .botao {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .delivery {
+    padding-bottom: 60px;
+  }
+  .delivery h2 {
+    padding-top: 60px;
+    font-size: 2rem;
+    margin-bottom: 32px;
+  }
+  .delivery p,
+  .delivery a {
+    font-size: 1.25rem;
+  }
+  .delivery p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .delivery {
+    padding-bottom: 40px;
+  }
+  .delivery h2 {
+    font-size: 1.5rem;
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  .delivery p,
+  .delivery a {
+    font-size: 1rem;
+  }
+  .delivery p {
+    margin-bottom: 12px;
+  }
+  .delivery .pecas img {
+    max-width: 200px;
+    margin: 0;
+  }
 }

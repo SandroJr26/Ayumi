@@ -12,6 +12,7 @@
   --cor-16: #000000;
   --cor-p1: #e81c1c;
   --cor-p7: #8c080b;
+  --cor-p8: #7d070a;
   --cor-p10: #660204;
 }
 
@@ -53,6 +54,9 @@
 }
 .cor-p7 {
   color: var(--cor-p7);
+}
+.cor-p8 {
+  color: var(--cor-p8);
 }
 .cor-p10 {
   color: var(--cor-p10);

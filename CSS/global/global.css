@@ -20,12 +20,14 @@ ul {
 }
 
 a {
+  text-transform: uppercase;
   text-decoration: none;
   color: var(--cor-2);
 }
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
   border-radius: 4px;
 }
