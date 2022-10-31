@@ -15,3 +15,6 @@
 
 /* Delivery */
 @import "./delivery/delivery.css";
+
+/* Novidades */
+@import "./novidade/novidade.css";
