@@ -18,3 +18,9 @@
 
 /* Novidades */
 @import "./novidade/novidade.css";
+
+/* Reserva */
+@import "./reserva/reserva.css";
+
+/* Comentario */
+@import "./comentario/comentario.css";

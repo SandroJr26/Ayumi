@@ -12,6 +12,10 @@
   border-radius: 0;
 }
 
+.portal img {
+  scale: none;
+}
+
 .portal div {
   max-width: 800px;
   position: absolute;

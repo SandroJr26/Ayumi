@@ -1,0 +1,74 @@
+.comentario {
+  padding-bottom: 80px;
+}
+
+.comentario-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.comentario-intro h2 {
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.comentario-intro .setinha-click:hover {
+  scale: none;
+}
+
+.comentario-conteudo img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.comentario-conteudo p {
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--cor-1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 16px 32px;
+  border-radius: 4px;
+  line-height: 1.7;
+  position: relative;
+}
+
+.comentario-conteudo p::after {
+  content: "";
+  width: 100%;
+  height: 48px;
+  background-image: url("../../Imagem/svgs/seta-esqueda.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 54px;
+  left: -32px;
+}
+.comentario-conteudo p::before {
+  content: "";
+  width: 100%;
+  height: 48px;
+  background-image: url("../../Imagem/svgs/seta-direita.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 54px;
+  left: 520px;
+}
+
+.comentario-conteudo::after {
+  content: "";
+  width: 80px;
+  height: 8px;
+  background-image: url("../../Imagem/svgs/divisor.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

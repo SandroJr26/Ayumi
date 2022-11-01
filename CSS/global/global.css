@@ -1,3 +1,14 @@
+.recepcao-bg,
+.delivery-bg,
+.reserva-bg {
+  background-color: var(--cor-14);
+}
+
+.novidades-bg,
+.comentario-bg {
+  background-color: var(--cor-2);
+}
+
 body {
   margin: 0px;
   color: #000000;
@@ -30,5 +41,8 @@ img {
   height: auto;
   display: block;
   border-radius: 4px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+img:hover {
+  scale: 1.1;
 }

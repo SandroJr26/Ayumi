@@ -1,71 +1,59 @@
-.delivery {
+.reserva {
   padding-bottom: 80px;
 }
 
-.delivery .pecas img {
-  margin: 20px 0 40px;
-}
-
-.delivery h2 {
+.reserva h2 {
   padding-top: 80px;
   margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.delivery p {
+.reserva p {
   margin-bottom: 32px;
 }
 
-.delivery .ver-mais:hover {
-  color: var(--cor-2);
+.reserva div img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.delivery-bg div::after {
-  display: none;
-}
-
-.delivery a {
+.reserva a {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.reserva img {
+  margin: 20px 0 40px;
+}
+
 @media (max-width: 1200px) {
-  .delivery {
+  .reserva {
     padding-bottom: 60px;
   }
-  .delivery h2 {
+  .reserva h2 {
     padding-top: 60px;
     font-size: 2rem;
     margin-bottom: 32px;
   }
-  .delivery p {
+  .reserva p {
     font-size: 1.25rem;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 800px) {
-  .delivery {
+  .reserva {
     padding-bottom: 40px;
   }
-  .delivery h2 {
+  .reserva h2 {
     font-size: 1.5rem;
     padding-top: 40px;
     margin-bottom: 20px;
   }
-  .delivery p {
+  .reserva p {
     font-size: 1rem;
-  }
-  .delivery p {
     margin-bottom: 12px;
-  }
-  .delivery .pecas {
-    margin-top: 12px;
-  }
-  .delivery .pecas img {
-    max-width: 200px;
-    margin: 0;
   }
 }
