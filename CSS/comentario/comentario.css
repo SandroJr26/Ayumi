@@ -28,7 +28,7 @@
 }
 
 .comentario-text {
-  width: 440px;
+  max-width: 440px;
   background-color: var(--cor-1);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   padding: 16px 32px;
@@ -43,20 +43,15 @@
   height: 32px;
   position: absolute;
   cursor: pointer;
+  top: 40px;
 }
 
 .comentario .seta-esquerda {
   left: -35px;
-  top: 40px;
 }
 
 .comentario .seta-direita {
   right: -35px;
-  top: 40px;
-}
-
-.comentario-conteudo p {
-  max-width: 440px;
 }
 
 .comentario-conteudo::after {
@@ -69,4 +64,46 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .comentario {
+    padding-bottom: 60px;
+  }
+  .comentario-intro {
+    padding-top: 60px;
+    padding-bottom: 32px;
+  }
+  .comentario-intro h2 {
+    font-size: 2rem;
+  }
+  .comentario .seta-esquerda {
+    left: -25px;
+  }
+
+  .comentario .seta-direita {
+    right: -25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .comentario {
+    padding-bottom: 40px;
+  }
+  .comentario-intro {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .comentario-intro h2 {
+    font-size: 1.5rem;
+  }
+  .comentario-text {
+    font-size: 0.875rem;
+    max-width: 280px;
+  }
+  .comentario-intro .click-mensagem {
+    display: flex;
+  }
 }
