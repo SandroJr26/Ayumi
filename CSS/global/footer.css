@@ -47,16 +47,13 @@
     display: none;
   }
   .footer {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer {
     grid-template-columns: 1fr;
-    gap: 40px;
   }
   .footer-copy {
-    margin-top: 0px;
+    margin-left: auto;
+  }
+  .footer-contato,
+  .footer-informacoes {
+    margin-left: 240px;
   }
 }
