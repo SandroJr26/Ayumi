@@ -43,7 +43,7 @@
 }
 
 @media (max-width: 800px) {
-  .footer > svg {
+  .footer > img {
     display: none;
   }
   .footer {
